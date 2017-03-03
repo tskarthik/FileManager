@@ -22,8 +22,9 @@ public class FileManagerController
 
 	@RequestMapping(value="/upload", method=RequestMethod.POST)
     public @ResponseBody String upload(
-            @RequestParam("file") MultipartFile file,@RequestParam(value="fileName") String fileName,
-            @RequestParam(value="ContentType") String ContentType,
+            @RequestParam("file") MultipartFile file,
+            @RequestParam(value="fileName") String fileName,
+            @RequestParam(value="contentType") String ContentType,
             @RequestParam(value="owner") String owner,
             @RequestParam(value="createdDate") @DateTimeFormat(pattern = "yyyy-MM-dd") Date createdDate) throws FileManagerException{
         if (!file.isEmpty()) {
