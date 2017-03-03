@@ -1,4 +1,4 @@
-package org.finra.evaluate.datasource;
+package org.finra.fm.datasource;
 
 import javax.sql.DataSource;
 

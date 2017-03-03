@@ -1,4 +1,4 @@
-package org.finra.evaluate.rest;
+package org.finra.fm.rest;
 
 import java.util.Date;
 
@@ -54,6 +54,10 @@ public class FileMetaData {
 		this.contentType = contentType;
 		this.owner = owner;
 		this.createdDate = createdDate;
+	}
+
+	public FileMetaData(){
+
 	}
 
 

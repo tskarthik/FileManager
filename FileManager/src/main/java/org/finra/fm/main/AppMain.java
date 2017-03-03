@@ -1,4 +1,4 @@
-package org.finra.evaluate.main;
+package org.finra.fm.main;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
